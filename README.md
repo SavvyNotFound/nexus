@@ -52,7 +52,7 @@ The filesystem determines the note's name and location; metadata does not duplic
 
 After creation, Nexus only reads existing metadata and does not automatically rewrite notes.
 
-Notes without a `creation_date` remain in the inbox indefinitely.
+Notes without a `created` remain in the inbox indefinitely.
 
 ## Inbox
 
