@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexus"
+version = "0.1.0"
+description = "Nexus CLI"
+requires-python = ">=3.12"
+
+[project.scripts]
+nexus = "nexus.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
